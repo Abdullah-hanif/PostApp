@@ -182,8 +182,8 @@ const styles = StyleSheet.create({
         backgroundColor:'#FFF'
       },
       DOWNLOADBUTTON:{
-        height:50,
-        width:'50%',
+        height:30,
+        width:'40%',
         backgroundColor:'#0d6efd',
         alignSelf:'center',
         borderRadius:5,

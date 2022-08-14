@@ -145,16 +145,16 @@ const Index = ({ navigation }) => {
           >
             <TouchableOpacity
               style={{
-                width: 190,
-              
+                width: 175,
+                aspectRatio:1.5,
                 alignSelf:'center',
-                height:130,
-               paddingTop:10,
+                height:105,
+               paddingTop:5,
                 alignItems: "center",
                 backgroundColor: '#FFFF'
               }}
             >
-              <View style={{ zIndex: 1, alignItems: 'center', justifyContent: 'center', borderRadius: 3, backgroundColor: '#0d6efd', width: '25%', marginRight: '75%' }}>
+              <View style={{ zIndex: 1, alignItems: 'center', justifyContent: 'center', borderRadius: 3, backgroundColor: '#0d6efd', width: '35%', marginRight: '65%' }}>
                 <Text style={{ color: 'white' }}>{item.status}</Text>
               </View>
               <Image
@@ -192,8 +192,9 @@ const styles = StyleSheet.create({
   },
   shadow: {
     backgroundColor: "#FFFF",
-    padding:5,
-    height: 300,
+   padding:0,
+    height: 293,
+    width:180,
     alignItems: "center",
     borderWidth: 0.5,
     borderColor: 'grey',
